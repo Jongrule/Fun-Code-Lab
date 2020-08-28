@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-groups = ['251123409000385','843804142348443','900389246658181']
+groups = ['452424348548234','1719713431625772','407059906109178']
 
 time.sleep(5)
 
@@ -21,7 +21,7 @@ for i in range(len(groups)):
     pyautogui.typewrite('p')
     time.sleep(2)
     print("Writing post\n")
-    pyautogui.typewrite("Hello there, it's a testing post from messy programmers")
+    pyautogui.typewrite("https://www.facebook.com/groups/262887164043934/permalink/1267011270298180/?sale_post_id=1267011270298180")
     time.sleep(4)
 
     pyautogui.keyDown('ctrl')
